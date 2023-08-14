@@ -1,9 +1,14 @@
 body {
   font-family: arial, sans-serif;
+  background-image: url("https://i.postimg.cc/WbFq3kQ4/beach-background-desktop-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  color: white;
 }
 
 h1 {
-  color: #878787;
+  color: white;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,7 +25,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: white;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -52,7 +57,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: white;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -65,10 +70,29 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: white;
   cursor: default;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
